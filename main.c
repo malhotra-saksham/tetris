@@ -345,16 +345,6 @@ __task void joystick(void) {
 			checknum=-1;
 		}
 		
-// 		if(rotation==1)
-// 			angle += 1;
-// 		else if(rotation==2)
-// 			angle -= 1;
-// 		
-// 		if(angle == -1)
-// 			angle=3;
-// 		
-// 		angle %= 4;
-		
 		if (rotation){
 			angle += 1;
 		
