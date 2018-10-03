@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "startup_lpc17xx.o" "glcd_scroll.o" "glcd_spi_lpc1700.o" "main.o" "retarget.o" "rtx_config.o" "uart.o" "system_lpc17xx.o" 
+c:\Software\Keil\ARM\RV31\LIB\RTX_CM3.LIB --library_type=microlib --strict --scatter "Project4.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Project4.map" -o Project4.axf
